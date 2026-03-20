@@ -5,6 +5,7 @@ using System.Linq;
 using System.Windows.Input;
 using Avalonia.Media;
 using TinyTimer.Models;
+using TinyTimer.Views;
 using MessageBus = TinyTimer.Messenger.MessageBus;
 using ReactiveUI;
 using System.Reactive;

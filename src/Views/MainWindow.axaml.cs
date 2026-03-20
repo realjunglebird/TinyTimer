@@ -1,6 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using TinyTimer.ViewModels;
+using TinyTimer;
 
 namespace TinyTimer.Views;
 

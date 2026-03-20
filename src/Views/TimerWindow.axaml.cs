@@ -3,7 +3,7 @@ using Avalonia.Input;
 using Avalonia.Media;
 using TinyTimer.ViewModels;
 
-namespace TinyTimer;
+namespace TinyTimer.Views;
 
 public partial class TimerWindow : Window
 {

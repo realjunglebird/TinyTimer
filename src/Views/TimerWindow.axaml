@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="150"
-        x:Class="TinyTimer.TimerWindow"
+        x:Class="TinyTimer.Views.TimerWindow"
         x:DataType="vm:TimerWindowViewModel"
         Title="TimerWindow"
         Width="400"
@@ -22,6 +22,7 @@
         ExtendClientAreaChromeHints="NoChrome"
         CanResize="True"
         SystemDecorations="None"
+        TransparencyLevelHint="Transparent"
         PointerPressed="InputElement_OnPointerPressed">
         
     <Grid>

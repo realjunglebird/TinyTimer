@@ -27,8 +27,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Views\TimerWindow.axaml.cs">
-      <DependentUpon>TimerWindow.axaml</DependentUpon>
+    <AdditionalFiles Include="src\Views\MainWindow.axaml" />
+    <AdditionalFiles Include="src\Views\TimerWindow.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="src\App.axaml.cs">
+      <DependentUpon>App.axaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
